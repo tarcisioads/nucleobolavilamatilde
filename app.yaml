@@ -4,6 +4,9 @@ handlers:
 - url: /
   script: helloworld.php
 
+- url: /celulas
+  static_files: index.html
+
 - url: /stylesheets
   static_dir: stylesheets
 
